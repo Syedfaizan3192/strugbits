@@ -1,0 +1,49 @@
+.sidebar {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 1080px;
+  /* UI Properties */
+  background: #015249 0% 0% no-repeat padding-box;
+  border-radius: 0px 20px 20px 0px;
+  opacity: 1;
+}
+.sidebar .logo {
+  top: 48px;
+  left: 78px;
+  width: 244px;
+  height: 58px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 20px 60px;
+}
+.sidebar .cat-listing {
+  margin: 30px 40px;
+  width: 296px;
+  height: 69px;
+  background: #043933 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 10px;
+  opacity: 1;
+}
+.sidebar .cat-listing ul li {
+  list-style: none;
+}
+.sidebar .cat-listing ul li .cat-listing-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 18px 15px;
+  cursor: pointer;
+}
+.sidebar .cat-listing ul li .cat-listing-row .name {
+  width: 146px;
+  height: 24px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: inherit;
+  padding: 3px 0px;
+}/*# sourceMappingURL=style.css.map */
