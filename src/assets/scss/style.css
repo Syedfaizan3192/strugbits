@@ -46,4 +46,22 @@
   font-weight: 500;
   font-style: inherit;
   padding: 3px 0px;
+}
+
+.topbar {
+  top: 0px;
+  left: 353px;
+  width: 1567px;
+  height: 150px;
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 15px rgba(107, 107, 107, 0.1019607843);
+  opacity: 1;
+}
+.topbar .topbar_ban {
+  top: 53px;
+  left: 469px;
+  width: 253px;
+  height: 48px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
