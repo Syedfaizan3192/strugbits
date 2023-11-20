@@ -1,7 +1,60 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import TableDetails from "../components/DetailTable";
+import user from '../../src/assets/images/user.png.png'
+import CustomActionButton from "../components/ActionButons";
 const HomePage = () => {
+  const data = [
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    },
+    {
+      id: 1,
+      image: user,
+      name: 'Faizan',
+      email: 'faizan@gmail.com',
+      action: <CustomActionButton />
+    }
+  ]
   return (
     <>
       <Container fluid className="container-home">
@@ -23,6 +76,17 @@ const HomePage = () => {
           </div>
         </div>
       </Container>
+
+
+      {
+        data && data?.map((dt) => {
+          return (
+            <>
+              <TableDetails kry={dt?.id} id={dt?.id} name={dt?.name} email={dt?.email} image={dt?.image} action={dt?.action} />
+            </>
+          )
+        })
+      }
     </>
   );
 };
