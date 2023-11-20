@@ -1,7 +1,7 @@
 .sidebar {
   top: 0px;
   left: 0px;
-  width: 400px;
+  max-width: 100%;
   height: 1080px;
   /* UI Properties */
   background: #015249 0% 0% no-repeat padding-box;
@@ -18,7 +18,7 @@
   padding: 20px 60px;
 }
 .sidebar .cat-listing {
-  margin: 30px 40px;
+  margin: 30px 50px;
   width: 296px;
   height: 69px;
   background: #043933 0% 0% no-repeat padding-box;
@@ -28,6 +28,7 @@
 }
 .sidebar .cat-listing ul li {
   list-style: none;
+  margin-top: 100px;
 }
 .sidebar .cat-listing ul li .cat-listing-row {
   display: flex;
@@ -48,20 +49,52 @@
   padding: 3px 0px;
 }
 
+.dashboardLayout .row > * {
+  padding: 0px;
+}
+
 .topbar {
   top: 0px;
   left: 353px;
-  width: 1567px;
-  height: 150px;
+  width: 100%;
+  height: 100px;
   background: transparent 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 15px rgba(107, 107, 107, 0.1019607843);
   opacity: 1;
 }
-.topbar .topbar_ban {
+.topbar .topbar_ban p {
   top: 53px;
   left: 469px;
   width: 253px;
   height: 48px;
-  background: transparent 0% 0% no-repeat padding-box;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0px;
   opacity: 1;
+}
+
+.container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1080px;
+  margin-top: 60px;
+  min-width: 1000px;
+}
+.container-home .header-main {
+  padding: 12px 0px;
+  width: 1372px;
+  height: 60px;
+  background-color: #57bc90;
+  background: transparent url("../images/Base2/Base@2x.png") 0% 0% no-repeat padding-box;
+  background-size: 100%;
+  border-radius: 10px;
+  opacity: 0.3;
+}
+.container-home .header-main .header span {
+  color: #015249;
+  font-size: 22px;
+  font-style: inherit;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
