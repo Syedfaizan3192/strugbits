@@ -90,6 +90,28 @@
   padding: 20px 0px;
 }
 
+.btn_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1080px;
+  margin-top: 60px;
+  min-width: 1000px;
+}
+.btn_main .row {
+  width: 100%;
+}
+.btn_main .custom_button .button_add_user {
+  background-color: #015249;
+  border-radius: 5px;
+  font-size: 20px;
+  opacity: 1;
+}
+.btn_main .custom_button .button_add_user .span_plus {
+  margin-right: 20px;
+  font-size: 26px;
+}
+
 .container-home {
   display: flex;
   align-items: center;
@@ -154,10 +176,6 @@ body {
 }
 
 .container,
-.container-fluid {
-  max-width: 1366px;
-}
-
 .actionbutton {
   display: flex;
   flex-direction: row;
@@ -165,25 +183,78 @@ body {
   align-items: center;
   text-align: center;
 }
+.container .edit,
 .actionbutton .edit {
   width: 106px;
   height: 33px;
-  background: #B0E1B7 0% 0% no-repeat padding-box;
+  background: #b0e1b7 0% 0% no-repeat padding-box;
   border-radius: 5px;
   cursor: pointer;
 }
+.container .edit span,
 .actionbutton .edit span {
   font-size: 16px;
-  color: #38A147;
+  color: #38a147;
 }
+.container .delete,
 .actionbutton .delete {
   width: 106px;
   height: 33px;
-  background: #EF9999 0% 0% no-repeat padding-box;
+  background: #ef9999 0% 0% no-repeat padding-box;
   border-radius: 5px;
   cursor: pointer;
 }
+.container .delete span,
 .actionbutton .delete span {
   font-size: 16px;
-  color: #DF2C2C;
+  color: #df2c2c;
+}
+
+.modal-content {
+  width: 528px;
+  height: 570px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3019607843);
+  border-radius: 20px;
+  opacity: 1;
+}
+.modal-content .modal-header {
+  width: 528px;
+  height: 144px;
+  opacity: 1;
+  background: transparent url("../images/BackgroundGreenModal.svg") 0% 0% no-repeat;
+}
+.modal-content .modal-header .modal-title {
+  /* UI Properties */
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  margin: 50px;
+}
+.modal-content .modal-header .btn-close {
+  margin-bottom: 80px;
+}
+
+.addemployee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.addemployee .form_employee .form-control {
+  width: 454px;
+  height: 55px;
+  border: 1px solid #dcdbdd;
+  border-radius: 10px;
+  opacity: 1;
+}
+.addemployee .form_employee .btn-submit {
+  width: 454px;
+  height: 55px;
+  /* background: transparent url(img/Base.png) 0% 0% no-repeat padding-box; */
+  border-radius: 10px;
+  opacity: 1;
+  background-color: #015249;
+}
+.addemployee .form_employee .form-text {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

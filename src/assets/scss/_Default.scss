@@ -1,55 +1,54 @@
-$baseFont: 'Nunito Sans', sans-serif;
+$baseFont: "Nunito Sans", sans-serif;
 
 html,
 body {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 
 body {
-    position: relative;
-    // font-family: $baseFont;
-    // color: $theme-black;
-    // background: $body-color;
-    //min-height: 3000px;
+  position: relative;
+  // font-family: $baseFont;
+  // color: $theme-black;
+  // background: $body-color;
+  //min-height: 3000px;
 }
 
 .container,
-.container-fluid {
-    max-width: 1366px;
-}
+// .container-fluid {
+//     max-width: 1366px;
+// }
 
 .actionbutton {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 
-    .edit {
-        width: 106px;
-        height: 33px;
-        background: #B0E1B7 0% 0% no-repeat padding-box;
-        border-radius: 5px;
-        cursor: pointer;
+  .edit {
+    width: 106px;
+    height: 33px;
+    background: #b0e1b7 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    cursor: pointer;
 
-        span {
-            font-size: 16px;
-            color: #38A147;
-        }
+    span {
+      font-size: 16px;
+      color: #38a147;
     }
+  }
 
-    .delete {
-        width: 106px;
-        height: 33px;
-        background: #EF9999 0% 0% no-repeat padding-box;
-        border-radius: 5px;
-        cursor: pointer;
+  .delete {
+    width: 106px;
+    height: 33px;
+    background: #ef9999 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    cursor: pointer;
 
-        span {
-            font-size: 16px;
-            color: #DF2C2C;
-        }
-
+    span {
+      font-size: 16px;
+      color: #df2c2c;
     }
+  }
 }

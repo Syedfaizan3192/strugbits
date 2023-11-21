@@ -1,3 +1,27 @@
+.btn_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1080px;
+  margin-top: 60px;
+  min-width: 1000px;
+  .row {
+    width: 100%;
+  }
+  .custom_button {
+    .button_add_user {
+      background-color: #015249;
+      border-radius: 5px;
+      font-size: 20px;
+      opacity: 1;
+      .span_plus {
+        margin-right: 20px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
 .container-home {
   display: flex;
   align-items: center;
@@ -12,7 +36,8 @@
     width: 1372px;
     height: 60px;
     background-color: #57bc90;
-    background: transparent url("../images/Base2/Base@2x.png") 0% 0% no-repeat padding-box;
+    background: transparent url("../images/Base2/Base@2x.png") 0% 0% no-repeat
+      padding-box;
     background-size: 100%;
     border-radius: 10px;
 
@@ -30,7 +55,6 @@
         @media (max-width: 1200px) {
           font-size: 14px;
         }
-
       }
     }
   }
@@ -50,7 +74,8 @@
     width: 1372px;
     height: 60px;
     // background-color: #57bc90;
-    background: transparent url("../images/white2.png") 0% 0% no-repeat padding-box;
+    background: transparent url("../images/white2.png") 0% 0% no-repeat
+      padding-box;
     background-size: 100%;
     border-radius: 10px;
 
@@ -67,5 +92,4 @@
       }
     }
   }
-
 }

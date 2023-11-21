@@ -1,0 +1,51 @@
+.modal-content {
+  width: 528px;
+  height: 570px;
+  box-shadow: 0px 5px 30px #0000004d;
+  border-radius: 20px;
+  opacity: 1;
+  .modal-header {
+    width: 528px;
+    height: 144px;
+    opacity: 1;
+    background: transparent url("../images/BackgroundGreenModal.svg") 0% 0%
+      no-repeat;
+    .modal-title {
+      /* UI Properties */
+      opacity: 1;
+      color: #ffffff;
+      font-size: 40px;
+      margin: 50px;
+    }
+    .btn-close {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+.addemployee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .form_employee {
+    .form-control {
+      width: 454px;
+      height: 55px;
+      border: 1px solid #dcdbdd;
+      border-radius: 10px;
+      opacity: 1;
+    }
+    .btn-submit {
+      width: 454px;
+      height: 55px;
+      /* background: transparent url(img/Base.png) 0% 0% no-repeat padding-box; */
+      border-radius: 10px;
+      opacity: 1;
+      background-color: #015249;
+    }
+    .form-text {
+      color: red;
+    }
+  }
+}
